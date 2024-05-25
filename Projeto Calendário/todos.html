@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <div class="input">
+            <label for="mês">2024:</label>
+            <input id="input" type="text" placeholder="Digite um mês">
+            <button style="cursor: pointer;" onclick="clicou()">Pesquisar</button>
+        </div>
+        <div class="box-calendario">
+            <h2 class="h21">JANEIRO</h2>
+            <table>
+                <tr style="background-color: rgba(128, 128, 128, 0.26);">
+                    <td>DOM</td>
+                    <td>SEG</td>
+                    <td>TER</td>
+                    <td>QUA</td>
+                    <td>QUI</td>
+                    <td>SEX</td>
+                    <td>SAB</td>
+                </tr>
+                <tr>
+                    <td style="color: gray;">31</td>
+                    <td style="background-color: turquoise; font-size: 10px;">1 - Confraternização Universal</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td style="background-color: turquoise; font-size: 10px;">20 - Dia do Farmacêutico</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td style="color: gray;">1</td>
+                    <td style="color: gray;">2</td>
+                    <td style="color: gray;">3</td>
+                </tr>
+            </table>
+        </div>
+        <div class="box-calendario">
+            <h2 class="h21">FEVEREIRO</h2>
+            <table>
+                <tr style="background-color: rgba(128, 128, 128, 0.26);">
+                    <td>DOM</td>
+                    <td>SEG</td>
+                    <td>TER</td>
+                    <td>QUA</td>
+                    <td>QUI</td>
+                    <td>SEX</td>
+                    <td>SAB</td>
+                </tr>
+                <tr>
+                    <td style="color: gray;">28</td>
+                    <td style="color: gray;">29</td>
+                    <td style="color: gray;">30</td>
+                    <td style="color: gray;">31</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>12</td>
+                    <td style="background-color: turquoise;font-size: 10px;">13 - Carnaval</td>
+                    <td style="background-color: turquoise;font-size: 10px;">14 - Cinzas</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td style="color: gray;">1</td>
+                    <td style="color: gray;">2</td>
+                </tr>
+            </table>
+        </div>
+        <div class="box-calendario">
+            <h2 class="h21">MARÇO</h2>
+            <table>
+                <tr style="background-color: rgba(128, 128, 128, 0.26);">
+                    <td>DOM</td>
+                    <td>SEG</td>
+                    <td>TER</td>
+                    <td>QUA</td>
+                    <td>QUI</td>
+                    <td>SEX</td>
+                    <td>SAB</td>
+                </tr>
+                <tr>
+                    <td class="cinza">25</td>
+                    <td class="cinza">26</td>
+                    <td class="cinza">27</td>
+                    <td class="cinza">28</td>
+                    <td class="cinza">29</td>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td class="dia">8 - Dia da Mulher</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td class="dia">15 - Dia do Consumidor</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td class="dia">24 / 31 - Páscoa</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td class="dia">29 - Sexta-Feira Santa</td>
+                    <td class="cinza">30</td>
+                </tr>
+            </table>
+        </div>
+        <div class="box-calendario">
+            <h2 class="h21">ABRIL</h2>
+            <table>
+                <tr style="background-color: rgba(128, 128, 128, 0.26);">
+                    <td>DOM</td>
+                    <td>SEG</td>
+                    <td>TER</td>
+                    <td>QUA</td>
+                    <td>QUI</td>
+                    <td>SEX</td>
+                    <td>SAB</td>
+                </tr>
+                <tr>
+                    <td class="cinza">31</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td class="dia">21 - Tiradentes</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td class="cinza">1</td>
+                    <td class="cinza">2</td>
+                    <td class="cinza">3</td>
+                    <td class="cinza">4</td>
+                </tr>
+            </table>
+        </div>
+        <div class="box-calendario">
+            <h2 class="h21">MAIO</h2>
+            <table>
+                <tr style="background-color: rgba(128, 128, 128, 0.26);">
+                    <td>DOM</td>
+                    <td>SEG</td>
+                    <td>TER</td>
+                    <td>QUA</td>
+                    <td>QUI</td>
+                    <td>SEX</td>
+                    <td>SAB</td>
+                </tr>
+                <tr>
+                    <td class="cinza">28</td>
+                    <td class="cinza">29</td>
+                    <td class="cinza">30</td>
+                    <td class="dia">1 - Dia do Trabalho</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td class="dia">12 - Dia das Mães</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td class="dia">30 - Corpus Christi</td>
+                    <td>31</td>
+                    <td class="cinza">1</td>
+                </tr>
+            </table>
+        </div>
+        <div class="box-calendario">
+            <h2 class="h21">JUNHO</h2>
+            <table>
+                <tr style="background-color: rgba(128, 128, 128, 0.26);">
+                    <td>DOM</td>
+                    <td>SEG</td>
+                    <td>TER</td>
+                    <td>QUA</td>
+                    <td>QUI</td>
+                    <td>SEX</td>
+                    <td>SAB</td>
+                </tr>
+                <tr>
+                    <td class="cinza">26</td>
+                    <td class="cinza">27</td>
+                    <td class="cinza">28</td>
+                    <td class="cinza">29</td>
+                    <td class="cinza">30</td>
+                    <td class="cinza">31</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td class="dia">12 - Dia dos Namorados</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>23/30</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                </tr>
+            </table>
+        </div>
+        <div class="box-calendario">
+            <h2 class="h21">JULHO</h2>
+            <table>
+                <tr style="background-color: rgba(128, 128, 128, 0.26);">
+                    <td>DOM</td>
+                    <td>SEG</td>
+                    <td>TER</td>
+                    <td>QUA</td>
+                    <td>QUI</td>
+                    <td>SEX</td>
+                    <td>SAB</td>
+                </tr>
+                <tr>
+                    <td class="cinza">30</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td class="cinza">1</td>
+                    <td class="cinza">2</td>
+                    <td class="cinza">3</td>
+                </tr>
+            </table>
+        </div>
+        <div class="box-calendario">
+            <h2 class="h21">AGOSTO</h2>
+            <table>
+                <tr style="background-color: rgba(128, 128, 128, 0.26);">
+                    <td>DOM</td>
+                    <td>SEG</td>
+                    <td>TER</td>
+                    <td>QUA</td>
+                    <td>QUI</td>
+                    <td>SEX</td>
+                    <td>SAB</td>
+                </tr>
+                <tr>
+                    <td class="cinza">28</td>
+                    <td class="cinza">29</td>
+                    <td class="cinza">30</td>
+                    <td class="cinza">31</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td class="dia">11 - Dia dos Pais</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                </tr>
+            </table>
+        </div>
+        <div class="box-calendario">
+            <h2 class="h21">SETEMBRO</h2>
+            <table>
+                <tr style="background-color: rgba(128, 128, 128, 0.26);">
+                    <td>DOM</td>
+                    <td>SEG</td>
+                    <td>TER</td>
+                    <td>QUA</td>
+                    <td>QUI</td>
+                    <td>SEX</td>
+                    <td>SAB</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td class="dia">7 - Independência do Brasil</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td class="dia">15 - Dia dos Pais</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>30</td>
+                    <td class="cinza">1</td>
+                    <td class="cinza">2</td>
+                    <td class="cinza">3</td>
+                    <td class="cinza">4</td>
+                    <td class="cinza">5</td>
+                </tr>
+            </table>
+        </div>
+        <div class="box-calendario">
+            <h2 class="h21">OUTUBRO</h2>
+            <table>
+                <tr style="background-color: rgba(128, 128, 128, 0.26);">
+                    <td>DOM</td>
+                    <td>SEG</td>
+                    <td>TER</td>
+                    <td>QUA</td>
+                    <td>QUI</td>
+                    <td>SEX</td>
+                    <td>SAB</td>
+                </tr>
+                <tr>
+                    <td class="cinza">29</td>
+                    <td class="cinza">30</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td class="dia">12 - Dia das Crianças</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td class="cinza">1</td>
+                    <td class="cinza">2</td>
+                </tr>
+            </table>
+        </div>
+        <div class="box-calendario">
+            <h2 class="h21">NOVEMBRO</h2>
+            <table>
+                <tr style="background-color: rgba(128, 128, 128, 0.26);">
+                    <td>DOM</td>
+                    <td>SEG</td>
+                    <td>TER</td>
+                    <td>QUA</td>
+                    <td>QUI</td>
+                    <td>SEX</td>
+                    <td>SAB</td>
+                </tr>
+                <tr>
+                    <td class="cinza">27</td>
+                    <td class="cinza">28</td>
+                    <td class="cinza">29</td>
+                    <td class="cinza">30</td>
+                    <td class="cinza">31</td>
+                    <td>1</td>
+                    <td class="dia">2 - Finados</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td class="dia">15 - República</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td class="dia">20 - Consciência Negra</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td class="dia">29 - Black Friday</td>
+                    <td>30</td>
+                </tr>
+            </table>
+        </div>
+        <div class="box-calendario">
+            <h2 class="h21">DEZEMBRO</h2>
+            <table>
+                <tr style="background-color: rgba(128, 128, 128, 0.26);">
+                    <td>DOM</td>
+                    <td>SEG</td>
+                    <td>TER</td>
+                    <td>QUA</td>
+                    <td>QUI</td>
+                    <td>SEX</td>
+                    <td>SAB</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td class="dia">25 - Natal</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td class="cinza">1</td>
+                    <td class="cinza">2</td>
+                    <td class="cinza">3</td>
+                    <td class="cinza">4</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+</body>
+
+</html>

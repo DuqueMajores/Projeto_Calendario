@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: white;
+}
+
+header{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwnDUsnpOU6JFGvbZA5EpiDfhMsHJkXBS_41Lr53SQg&s);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -10px;
+    padding: 20px;
+ 
+}
+
+.input{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    
+}
+
+.h21{
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.box-calendario{
+    margin-top: 20px;
+    max-width: 820px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.404);
+    height: 220px;
+}
+
+table{
+    margin-right: 30px;
+    margin-left: 30px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td{
+    width: 500px;
+    border: 1px solid 
+    rgba(0, 0, 0, 0.281);
+}
+
+.dia{
+    background-color: turquoise;
+    font-size: 10px;
+}
+
+.cinza{
+    color: gray;
+}
